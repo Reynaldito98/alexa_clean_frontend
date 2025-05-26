@@ -1,0 +1,35 @@
+.category {
+    width: 100%;
+    list-style-type: none;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: 0.4s ease-in-out;
+}
+
+.category__heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category__arrow {
+    width: 75px;
+    cursor: pointer;
+}
+
+.category__arrow_rotate {
+    transform: rotate(180deg);
+}
+
+.category__content {
+    display: none; 
+}
+
+.category__content_visible {
+    display: block;
+}
+
+.category__description {
+    font-size: 16px;
+}

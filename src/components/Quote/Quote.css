@@ -1,0 +1,35 @@
+.quote {
+    background-image: linear-gradient(to right, rgb(242, 238, 238), rgb(219, 210, 210));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 90px;
+    color: #000;
+}
+
+.quote__heading {
+    margin: 0px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+}
+
+hr {
+    color: rgb(194, 188, 188);
+    width: 60%;
+    margin-top: 20px;
+}
+
+.quote__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    grid-gap: 80px;
+    margin-top: 60px;
+    width: 50%;
+    margin-top: 60px;
+}
