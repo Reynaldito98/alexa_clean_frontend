@@ -59,6 +59,7 @@ hr {
 
 .booking__input {
     padding: 5px 5px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .booking__fieldset_button {
@@ -121,4 +122,6 @@ button:hover {
 
 .booking__textarea {
     height: 100px;
+    padding: 5px 5px; 
+    font-family: 'Roboto', sans-serif;  
 }

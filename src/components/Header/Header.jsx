@@ -15,7 +15,11 @@ function Header() {
                 </li>
 
                 <li>
-                    <Link to="/info-center" className={`header__link ${location.pathname==='/info-center'?'header__link_active':''}`}>Info Center</Link>
+                    <Link to="/store" className={`header__link ${location.pathname==='/store'?'header__link_active':''}`}>Store</Link>
+                </li>
+
+                <li>
+                    <Link to="/ratings" className={`header__link ${location.pathname==='/ratings'?'header__link_active':''}`}>Ratings</Link>
                 </li>
 
                 <li>
@@ -23,7 +27,11 @@ function Header() {
                 </li>
 
                 <li>
-                    <Link to="/contact" className={`header__link ${location.pathname==='/contact'?'header__link_active':''}`}>Contact</Link>
+                    <button className="header__link">Language</button>
+                </li>
+
+                <li>
+                    <button className="header__link">Log out</button>
                 </li>
             </ul>
         </header>

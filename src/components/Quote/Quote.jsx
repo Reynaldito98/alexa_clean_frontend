@@ -18,7 +18,7 @@ function Quote() {
         {
             name: 'Office and Commercial Cleaning',
             source: office,
-            description: `Office Clean\nStore Clean\nMedical Clinic Clean\nCorporation Clean\nThese services include General Office Cleaning, Restroom Cleaning, Breakroom / Kitchenette Cleaning, Window and Glass Cleaning, High-Touch Surface Disinfection but this package can be assembled according to the client's need.`
+            description: `Office Clean\nStore Clean\nMedical Clinic Clean\nCorporation Clean\n`
         }, 
         {
             name: 'Post-construction Cleaning',
@@ -46,7 +46,7 @@ function Quote() {
 
     return (
         <main className="quote" id="quote">
-            <h1 className="quote__heading">Services</h1>
+            <h1 className="quote__heading">Services & Pricing</h1>
             <hr></hr>
 
             <ul className="quote__list">

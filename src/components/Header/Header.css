@@ -35,6 +35,9 @@
     transition: 0.4s ease-in-out;
     padding-bottom: 10px;
     font-weight: 700;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .header__link_font_color {
@@ -48,4 +51,5 @@
 
 .header__link:hover {
     color: #fff;
-}
+    box-shadow: none;
+}   
