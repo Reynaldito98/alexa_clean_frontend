@@ -3,7 +3,7 @@ import people from "../../images/alexa.jpg";
 import arrowDown from '../../images/arrow-down.png';
 import { useState } from 'react';
 
-function Main() {
+function Main({handleOpenBookingModal, handleOpenRatingModal}) {
     const [descriptionOpened, setDescriptionOpened] = useState(false);
     const [description2Opened, setDescription2Opened] = useState(false);
 
@@ -45,8 +45,8 @@ function Main() {
                     </p> 
                 </a>
                 <a href="#quote" className="main__button main__button_quote">Services & Pricing</a>
-                <a href="#" className="main__button">I want an appointment</a>
-                <a href="#" className="main__button">What did you think of our service?</a>
+                <a href="#" className="main__button" onClick={handleOpenBookingModal}>I want an appointment</a>
+                <a href="#" className="main__button" onClick={handleOpenRatingModal}>What did you think of our service?</a>
                 <a href="#book" className="main__button main__button_quote">Get in touch</a>
             </div> 
         </main>
